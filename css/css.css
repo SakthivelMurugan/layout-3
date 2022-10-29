@@ -1,0 +1,83 @@
+.template
+{
+	display:flex;
+	border:2px solid black;
+	flex-direction:row;
+	margin:290px;
+	justify-content:center;
+	margin-top:50px;
+}
+.template .split1
+{
+	display:flex;
+	flex-direction:column;
+	background-color:black;
+}
+.template .split1 .split11
+{
+	display:flex;
+	flex-direction:column;
+	margin:5px;
+	margin-left:100px;
+	margin-right:100px;
+}
+.template .split1 .split11 .dark
+{
+	height:40px;
+	width:180px;
+	background-color:white;
+	margin:5px;
+	margin-left:45px;
+}
+.template .split1 .split11 .text
+{
+	height:20px;
+	width:150px;
+	background-color:white;
+	margin:5px;
+	margin-left:60px;
+}
+.template .split1 .split12
+{
+	display:flex;
+	flex-direction:row;
+}
+.template .split1 .split12 .tb
+{
+	height:40px;
+	width:120px;
+	background-color:white;
+	margin:5px;
+	margin-left:140px;
+}
+.template .split1 .split12 .button
+{
+	height:40px;
+	width:50px;
+	background-color:green;
+	margin:5px;
+}
+.template .split2
+{
+	display:flex;
+	flex-direction:column;
+	background-color:green;
+}
+.template .split2 .button1
+{
+	height:20px;
+	width:50px;
+	background-color:white;
+	margin:5px;
+	margin-left:300px;
+	margin-top:30px;
+}
+.template .split2 .button
+{
+	height:20px;
+	width:50px;
+	background-color:white;
+	margin:5px;
+	margin-left:300px;
+}
+
