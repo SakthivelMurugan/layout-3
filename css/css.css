@@ -1,38 +1,34 @@
 .template
 {
 	display:flex;
-	border:2px solid black;
 	flex-direction:row;
-	margin:250px;
-	justify-content:center;
-	margin-top:50px;
 }
 .template .split1
 {
 	display:flex;
 	flex-direction:column;
 	background-color:black;
-	width:435px;
-	height:330px;;
+	width:50%;
+	height:500px;
+	justify-content:center;
+	align-items:center;
 }
 .template .split1 .split11
 {
 	display:flex;
 	flex-direction:column;
+	align-items:center;
 }
 .template .split1 .split11 .dark
 {
-	height:40px;
-	width:180px;
+	height:50px;
+	width:300px;
 	background-color:white;
-	margin:0px auto;
-	margin-top:100px;
-	margin-bottom:10px;
 }
 .template .split1 .split11 .text
 {
-	height:20px;
-	width:150px;
+	height:30px;
+	width:200px;
 	background-color:white;
 	margin:0px auto;
 	margin-top:10px;
@@ -47,14 +43,14 @@
 .template .split1 .split12 .tb
 {
 	height:40px;
-	width:120px;
+	width:200px;
 	background-color:white;
 	margin:5px;
 }
 .template .split1 .split12 .button
 {
 	height:40px;
-	width:50px;
+	width:70px;
 	background-color:green;
 	margin:5px;
 }
@@ -63,25 +59,18 @@
 	display:flex;
 	flex-direction:column;
 	background-color:green;
-}
-.template .split2 .button1
-{
-	height:50px;
-	width:50px;
-	background-color:white;
-	margin:30px;
-	margin-left:350px;
-	border-radius:50px;
-	text-align:center;
+	width:50%;
+	height:500px;
+	align-items:end;
+	justify-content:center;
 }
 .template .split2 .button
 {
 	height:50px;
 	width:50px;
 	background-color:white;
-	margin:30px;
-	margin-left:350px;
 	border-radius:50px;
 	text-align:center;
+	margin:10px;
 }
 
